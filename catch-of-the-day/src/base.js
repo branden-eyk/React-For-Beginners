@@ -5,9 +5,9 @@ import 'firebase/firestore';
 import 'firebase/database';
 
 const firebaseApp = firebase.initializeApp ({
-    apiKey: "AIzaSyD94hLuM7gnCZ_Sz11aBVQBEK5WtLCkigQ",
-    authDomain: "catch-of-the-day-232b7.firebaseapp.com",
-    databaseURL: "https://catch-of-the-day-232b7-default-rtdb.firebaseio.com",
+    apiKey: "",
+    authDomain: "",
+    databaseURL: "",
   });
 
 const base = Rebase.createClass(firebaseApp.database());
